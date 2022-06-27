@@ -1,7 +1,6 @@
 - inverted: timeline-inverted
   img: icon-agenda.jpeg
   name: Agenda
-  info: Check out the agenda
   link: /agenda
 
 - inverted:
@@ -16,6 +15,5 @@
 
 - inverted: timeline-inverted
   img: icon-faq.jpeg
-  name: Guide and instructions for the meeting
-  info: Guide and Instructions on how you can join the meeting virtually
+  name: Guide and instructions to join the meeting virtually
   link: /faqs
