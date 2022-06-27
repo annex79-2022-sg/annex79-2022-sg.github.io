@@ -1,32 +1,35 @@
-<!-- Portfolio Grid Section -->
-    <section id="speakers" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">OB-22 Speakers</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-            </div>
-            <div class="row">
-            {% for post in site.data.twenty_17.speakers %}
-                <div class="col-md-4 col-sm-6 speakers-item">
-                    <a href="#{{ post.name }}" class="speakers-link" data-toggle="modal">
-                        <div class="speakers-hover">
-                            <div class="speakers-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="../css/2017_style/img/speaker/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="speakers-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
-                    </div>
-                </div>
-            {% endfor %}
-            </div>
-            <div class="button-abstract-div text-center">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdneLsCtHsCbKy4JaTZxjJhnYj-iVaMUdbexI3FsJUy-qnIUw/viewform" class="page-scroll btn btn-xl">Submit your abstract</a>
+<section id="cfp" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <!-- <h2 class="section-heading">Title</h2> -->
             </div>
         </div>
-    </section>
+        <div class="row container">
+            <h2>Call for Abstracts</h2>
+            <p>
+                Following the tradition of IEA Annex 79, we invite you to submit and present an original research for OB-22 Symposium. The abstract should be no more than 300-words (with maximum one figure). All submissions will be reviewed, evaluated and selected by the scientific committee. Only oral presentations will occur, not papers.
+                <br>
+                Topics to focus on, but are not limited to:
+                <ul>
+                    <li>Developing new scientific knowledge about adaptive occupant actions driven by multiple interdependent indoor environmental parameters,</li>
+                    <li>understanding interactions between occupants and building systems, e.g. how interfaces en-/discourage occupants taking advantage of adaptive opportunities for improving their comfort situation, as well as the impact on building energy use,</li>
+                    <li>deploying 'big data' (e.g. data mining and machine learning) for the building sector based on various sources of building and occupant data as well as sensing technologies,</li>
+                    <li>developing methods and guidelines and preparing standards for integrating occupant models in building design and operation, and</li>
+                    <li>performing focused case studies to test the new methods and models in different design and operation phases in order to obtain valuable feedback for the researchers, practitioners, and policy makers.</li>
+                 </ul>
+                
+                 <br>
+                <h3>Important Dates</h3>                
+                Abstracts Deadline: 1 September, 2022
+                Acceptance Notification: 8 August, 2022
+
+                <br>
+                Non-presenters are also encouraged to participate in the symposium.
+            </p>
+        </div>
+        <div class="button-abstract-div text-center">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdneLsCtHsCbKy4JaTZxjJhnYj-iVaMUdbexI3FsJUy-qnIUw/viewform" class="page-scroll btn btn-xl">Submit your abstract</a>
+        </div>
+    </div>
+</section>

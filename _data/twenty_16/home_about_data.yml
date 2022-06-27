@@ -19,8 +19,12 @@
 - inverted: timeline-inverted
   img: icon-venue.jpeg
   name: Venue
-  info: Learn more about our location
-  link: /2016/venue
+  info: Department of the Built Environment
+        College of Design and Engineering
+        National University of Singapore
+        4 Architecture Drive,
+        SDE4 SDE4-04-01,
+        Singapore 117356
 
 - inverted: 
   img: icon-faq.jpeg
