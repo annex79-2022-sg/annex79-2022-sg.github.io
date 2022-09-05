@@ -25,9 +25,11 @@
                                     </div>
                                     {% if about_data.name == "Agenda" %}
                                         <a href="/files/Annex 79 - Programme details.pdf" class="page-scroll btn btn-sm">Agenda Details</a>
+                                    {% endif %}
                                     {% if about_data.name == "Guide and instructions to join the meeting virtually" %}
                                         <a href="/files/Annex 79 - Guide and Instructions for online participants.pdf" class="page-scroll btn btn-sm">Online Instructions</a>
-                                    {% else %}
+                                    {% endif %}
+                                    {% if about_data.name == "Venue" %}
                                         <a href="/files/Travel-Advice.pdf" class="page-scroll btn btn-sm">Travel Advice</a>
                                     {% endif %}
                                 </div>
